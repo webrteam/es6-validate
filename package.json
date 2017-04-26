@@ -1,0 +1,19 @@
+{
+  "name": "es6-validate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/es6plugins/es6-validate.git"
+  },
+  "author": "shanyin-haiwai-fegroup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/es6plugins/es6-validate/issues"
+  },
+  "homepage": "https://github.com/es6plugins/es6-validate#readme"
+}
