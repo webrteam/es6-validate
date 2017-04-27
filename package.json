@@ -1,8 +1,8 @@
 {
   "name": "es6-validate",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "tip.js",
+  "main": "va.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

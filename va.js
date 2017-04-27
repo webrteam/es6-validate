@@ -12,6 +12,7 @@ module.exports = {
         for (var key in chkParams) {
             var value = params[key] || '';
             var rule = chkParams[key];
+            rule.title = rule.title || key;
             // console.log({key, value, rule});
             var message = this.chkItem(value, rule, params);
             if (typeof message === 'string') {
