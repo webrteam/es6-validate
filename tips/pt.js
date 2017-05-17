@@ -7,7 +7,7 @@ var {toFun} = require('./toFun');
 // 葡语规则提示
 module.exports = toFun({
     empty: '{0} Não pode ser vazio',
-    please_input: 'Insera {0}, por favor',
+    please_input: 'Insira {0}, por favor',
     please_select: 'Escolha {0}, por favor',
 
     // 数据类型
