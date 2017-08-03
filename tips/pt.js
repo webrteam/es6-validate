@@ -18,10 +18,10 @@ module.exports = toFun({
     sets: 'O conteúdo deve só conter em {0}',
 
     // 格式
-    number_or_letter: '{0} Usuário deve ser composto apenas de números e letras.',
-    number_and_letter: '{0} Inclusão com números e letras obrigatório',
-    format: '{0} Formato incorreto',
-    invalid: '{0} Inválido',
+    number_or_letter: 'Usuário deve ser composto apenas de números e letras {0}.',
+    number_and_letter: 'Inclusão com números e letras obrigatório {0}',
+    format: 'Formato incorreto {0}',
+    invalid: 'Inválido {0}',
 
     // 数字大小
     more_than: '{0} Maior de {1} caracteres obrigatório',
