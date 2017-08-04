@@ -1,6 +1,6 @@
 {
   "name": "es6-validate",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "va.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/es6plugins/es6-validate.git"
+    "url": "git+ssh://git@github.com/webrteam/es6-validate.git"
   },
   "author": "shanyin-haiwai-fegroup",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/es6plugins/es6-validate/issues"
+    "url": "https://github.com/webrteam/es6-validate/issues"
   },
-  "homepage": "https://github.com/es6plugins/es6-validate#readme"
+  "homepage": "https://github.com/webrteam/es6-validate#readme"
 }
