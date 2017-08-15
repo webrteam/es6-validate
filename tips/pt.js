@@ -7,7 +7,7 @@ var {toFun} = require('./toFun');
 // 葡语规则提示
 module.exports = toFun({
     empty: '{0} Não pode ser vazio',
-    please_input: 'Insira {0}, por favor',
+    please_input: 'Por favor, insira um {0} válido.',
     please_select: 'Escolha {0}, por favor',
 
     // 数据类型
@@ -21,7 +21,7 @@ module.exports = toFun({
     number_or_letter: 'Usuário deve ser composto apenas de números e letras {0}.',
     number_and_letter: 'Inclusão com números e letras obrigatório {0}',
     format: 'Formato incorreto {0}',
-    invalid: 'Inválido {0}',
+    invalid: '{0} Inválido',
 
     // 数字大小
     more_than: '{0} Maior de {1} caracteres obrigatório',
@@ -37,7 +37,7 @@ module.exports = toFun({
 
     // 字符串长度
     len: '{0} Cumprimento incorreto',
-    lenRange: '{0} Cuprimento deve ter no mínimo de {1} caracteres e no máximo de {2} caracteres',
+    lenRange: 'Comprimento do {0} deve ter mínimo de {1}caracteres e máximo {2}',
     minLen: '{0} Cumprimento não pode ser menor que {1} caracteres',
     maxLen: '{0} Cumprimento não pode ser maior que {1} {2} caracteres',
 
@@ -52,7 +52,7 @@ module.exports = toFun({
 
     // 密码输入不一致
     // NoConsistent:'{0}A senha de comfirmar deve ser igual com a senha de inserir'
-    same: 'A senha inserida deve ser a mesma senha de confirmação',
+    same: 'Nova senha não pode ser igual com senha antiga.',
 
     // 是否不重复
     diff: 'O {0} atual não pode ser igual com outro {0} digitado da referência'
