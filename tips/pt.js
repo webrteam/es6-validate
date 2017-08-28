@@ -37,7 +37,7 @@ module.exports = toFun({
 
     // 字符串长度
     len: '{0} Cumprimento incorreto',
-    lenRange: 'Comprimento do {0} deve ter mínimo de {1}caracteres e máximo {2}',
+    lenRange: 'A {0} deve ter mínimo de {1} e máximo de {2} caracteres.',
     minLen: '{0} Cumprimento não pode ser menor que {1} caracteres',
     maxLen: '{0} Cumprimento não pode ser maior que {1} {2} caracteres',
 
