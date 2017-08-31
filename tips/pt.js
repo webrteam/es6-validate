@@ -55,5 +55,5 @@ module.exports = toFun({
     same: 'Nova senha não pode ser igual com senha antiga.',
 
     // 是否不重复
-    diff: 'O {0} atual não pode ser igual com outro {0} digitado da referência'
+    diff: 'O {0} não pode ser o mesmo. Por favor insira um {0} diferente.'
 });
