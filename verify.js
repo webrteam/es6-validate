@@ -58,12 +58,12 @@ module.exports = {
 
     // 检查与参数中某个值是否相同
     same: function (value, rule, ruleValue, params) {
-        return params[ruleValue] !== value && this.tip.same(rule.title);
+        return params[ruleValue] !== value && this.tip.same(rule.title, rule.title2);
     },
 
     // 检查与参数中某个值是否不相同
     diff: function (value, rule, ruleValue, params) {
-        return params[ruleValue] === value && this.tip.diff(rule.title);
+        return params[ruleValue] === value && this.tip.diff(rule.title, rule.title2);
     },
 
     // 检查其它 (ruleValue类型为function)
