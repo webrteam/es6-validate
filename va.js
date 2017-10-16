@@ -13,7 +13,7 @@ module.exports = {
             var value = params[key] || '';
             var rule = chkParams[key];
             rule.title = rule.title || key;
-            value = value.replace(/(^\s*)|(\s*)$/g, '');
+            value = value.toString().replace(/(^\s*)|(\s*)$/g, '');
             // console.log({key, value, rule});
             var message = this.chkItem(value, rule, params);
             if (typeof message === 'string') {
